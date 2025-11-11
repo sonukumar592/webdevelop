@@ -1,0 +1,18 @@
+.container{
+    background-color: white;
+    border: solid black;
+}
+.heading{
+   text-align: center; 
+ font-size: 28px;
+    font-weight: bold;
+}
+.a{
+    margin: auto;
+    padding: 0px 730px;
+}
+td {
+    
+    width: 300px;
+
+}
