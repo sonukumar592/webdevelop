@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+    font-size:x-large;
+    font-weight: 500px;
+    background-color:black;
+    height: 50vh;
+    width: 50vw;
+    color: white;
+    
+    
+}
+#Box1{
+    background-color: orangered;
+    margin: 20px;
+    padding: 10px;
+}
+#Box2{
+    background-color: #02a2c5;
+    margin:10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+#Box3{
+    background-color: yellow;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+#Box4{
+    background-color:#00caa4;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 20px;  
+    height: 50px;
+
+}

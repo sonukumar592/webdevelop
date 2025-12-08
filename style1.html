@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 Grid with Divs (CSS Grid)</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns, each taking equal space */
+            grid-template-rows: repeat(2, 1fr); /* Two rows, each taking equal space */
+            width: 400px; /* Example width for the container */
+            height: 200px; /* Example height for the container */
+            border: 1px solid black;
+        }
+
+        .grid-item {
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img class="ver" src="https://static.vecteezy.com/system/resources/thumbnails/004/299/806/small/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector.jpg" alt="Banner" height="200" width="1700">
+
+
+
+    <select id="laptop" name="laptop" required>
+               <option value="">select laptop</option>
+               <option value = "Macbook m4">Macbook m4</option>
+               <option value = "Lenovo LOQ">Lenovo LOQ</option>
+               <option value = "Samsung Galaxy book4 ultra">Samsung Galaxy book4 ultra</option>
+               <option value = "Victus">Victus</option>
+               </select>
+               <label for = "mobile Phones"> mobile Phones:</label>
+               <select id="mobile Phones" name="mobile Phones" required>
+               <option value="">select mobile Phones</option>
+               <option value = "Samsung ">Samsung </option>
+               <option value = "apple">apple</option>
+               <option value = "Huawei">Huawei</option>
+               <option value = "Google Pixel">Google Pixel</option>
+               </select>
+               <label for = "Bikes"> Bikes:</label>
+               <select id="Bikes" name="Bikes" required>
+               <option value="">select Bikes</option>
+               <option value = "Kawasaki Ninja">Kawasaki Ninja</option>
+               <option value="Kawasaki Z900">Kawasaki Z900</option>
+               <option value = "BMW S 1000 RR">BMW S 1000 RR</option>
+               <option value = "Ducati Panigale V4">Ducati Panigale V4</option>
+               </select><label for = "shoes"> shoes:</label>
+               <select id="Shoes" name="shoes" required>
+               <option value="">shoes</option>
+               <option value = "Nike SB x Air Jordan 4 Retro" >Nike SB x Air Jordan 4 Retro"</option>
+               <option value = "jordan Jumpman MVP Men's Shoes">jordan Jumpman MVP Men's Shoes</option>
+               <option value = "Adidas Samba Classic White">Adidas Samba Classic White</option>
+               <option value = "Puma speedcat OG sneakers">Puma speedcat OG sneakers</option>
+    
+
+    <div class="grid-container">
+        <div class="grid-item"> <section>
+            <h1>Laptop</h1>
+            <table>
+                <tr>
+                    <th>
+                        <h1>Macbook M4</h1>
+                        <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/MacBook_Air_M410.jpg" alt="macbook m4" height="273" width="450">
+                        <p>Ultrafast Apple M4 chip (10-core CPU, up to 10-core GPU, 16-core Neural Engine) with 120 GB/s memory bandwidth, 13.6″ Liquid Retina display, up to 18 hours video playback, MagSafe 3, two Thunderbolt 4 ports.</p>
+                    </th>
+                    <th>
+                        <h1>Lenovo LOQ</h1>
+                        <img src="https://p4-ofp.static.pub//fes/cms/2024/09/25/slkcow703eedlqf2aa025ai36lhchr805377.jpg" alt="Lenovo LOQ" height="273" width="450">
+                        <p>Lenovo LOQ 15IAX9E 83LK00AVIN Standard Laptop (Intel Core i5-12450HX/16 GB/512 GB SSD/4 GB-NVIDIA GeForce RTX 3050A/Windows 11 Home/Office Home & Student 2024/Full HD), 39.62 cm - 15.6 inch, Luna Grey</p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h1>Samsung Galaxy book4 ultra</h1>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2024/5/418659138/LF/MG/CI/69654469/galaxy-book-4-3962-cm-intel-core-i7-16-gb-intel-iris-xe-graphics.jpg" alt="Samsung Galaxy book4 ultra " height="273" width="450">
+                         <p><b>Samsung Galaxy Book4 Ultra (16″) features a 3K AMOLED 120 Hz display, Intel Core Ultra 7/9 CPU, NVIDIA RTX 4050/4070 GPU, up to 64 GB LPDDR5X RAM, 2 TB SSD, 76 Wh battery, Thunderbolt 4, HDMI 2.1, MicroSD, and 140 W charging. Sleek 1.86 kg body, AI-optimized performance, and Galaxy ecosystem integration.</b></p>
+                        
+                    
+                    </td>
+                    <td>
+                        <h1>Victus</h1>
+                        <img src="https://assets-prd.ignimgs.com/2024/02/03/back-1706922367442.jpg" alt="Asus TUF" height="273" width="450">
+                        <p><b>ASUS TUF Gaming F16 Powered by an AMD Ryzen 7 8845HS CPU and NVIDIA GeForce RTX 4060 GPU, it features a 15.6″ FHD 144 Hz display, 16 GB DDR5 RAM, 512 GB PCIe 4.0 SSD, Wi-Fi 6, dual-slot upgradable memory/storage.</b></p>
+                    </td>
+                </tr>
+            </table>
+        </section></div>
+        <div class="grid-item"><section>
+            <h1>Mobile Phones</h1>
+            <table>
+                <tr>
+                    <th>
+                        <h1>Samsung s24 ultra</h1>
+                        <img src="https://m.media-amazon.com/images/I/717Q2swzhBL.jpg" alt="Samsung s24 ultra" height="500">
+                        <p>A 6.8″ QHD+ Dynamic AMOLED 2X display at 120 Hz, driven by the Snapdragon 8 Gen 3 chip. Comes with 12 GB RAM, up to 1 TB storage, a quad-camera setup with 200 MP main + 50 MP periscope 5× + 10 MP 3× + 12 MP ultra-wide, 12 MP front. 5,000 mAh battery, S Pen support, Wi-Fi 7 and UWB.</p>
+                    </th>
+                    <th>
+                        <h1>Iphone 17 pro max</h1>
+                        <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/original/M2mENj_77l-appleiphone17promax-mp-494741645-i-1-1200wx1200h.jpeg" alt="Iphone 17 pro max" height="450">
+                        <p>The Apple iPhone 17 Pro Max features a 6.9-inch Super Retina XDR OLED display with 120 Hz ProMotion and up to 3,000 nits peak brightness. 
+apple.com
++1
+ It’s powered by the A19 Pro chip (6-core CPU, 6-core GPU, 16-core Neural Engine) and offers up to 2 TB storage</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>Huawei Pura 80 Ultra </h1>
+                        <img src="https://www.designinfo.in/wp-content/uploads/2022/09/HUAWEI-Pura-80-Ultra-Gold-4.webp" height="450">
+                        <p><b>6.8″ LTPO OLED (1-120Hz) display, powered by Kirin 9020 chipset, with 16 GB RAM and 512 GB storage. Quad-camera: 50 MP 1″ main, 40 MP ultra-wide, dual telephoto 50 MP/12.5 MP (3.7× & 9.4× optical). 5,700 mAh battery with 100 W wired and 80 W wireless charging. IP68/IP69 rated</b></p>
+                    </td>
+                    <td>
+                        <h1>Google pixel 9pro</h1>
+                        <img src="https://cdn2.mobilnisvet.com/Xt0736BTrWUPDoxPQpwhrMvgPdSHN_fpTyKLj2VeKeA/sm:1/sh:1/el:0/q:85/wm:0.2:re:0:0:0.5/q:40/wm:0/rs:fill:270:570/czM6Ly9tb2JpbG5pc3ZldGNvbS9QaG9uZXMvOHBiL2ltYWdlcy9qN2I3LmpwZw.jpg" alt="Google pixel 9pro" height="500">
+                        <p><b>6.3″ LTPO OLED (1-120Hz) display; Google Tensor G4 chipset; 16 GB RAM, up to 1 TB storage; triple rear cameras: 50 MP wide + 48 MP ultra-wide + 48 MP telephoto (5× optical, up to 30× Super Res); 4,700 mAh battery; 45 W wired charging; IP68 water/dust rating.</b></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+</div>
+        <div class="grid-item"> <section>
+            <h1>Bikes</h1>
+            <table>
+                <tr>
+                    <th>
+                        <h1>Kawasaki Ninja ZX-10R</h1>
+                        <img src="https://cdn.bikedekho.com/processedimages/kawasaki/kawasaki-ninja-zx-10r/source/kawasaki-ninja-zx-10r68e8e427b3819.jpg" alt="Kawasaki Ninja ZX-10R">
+                        <p>Kawasaki Ninja ZX-10R</p>
+                    </th>
+                    <th>
+                        <h1>Kawasaki Z900</h1>
+                        <img src="https://cdn.bikedekho.com/processedimages/kawasaki/z900/source/z90068f1ccc26b21a.jpg" alt="Kawasaki Z900">
+                        <p>Kawasaki Z900</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>BMW S 1000 RR</h1>
+                        <img src="https://cdn.bikedekho.com/processedimages/bmw/2025-s-1000-rr/source/2025-s-1000-rr678b98a9d126d.jpg" alt="BMW S 1000 RR">
+                        <p>BMW S 1000 RR</p>
+                    </td>
+                    <td>
+                        <h1>Ducati Panigale V4</h1>
+                        <img src="https://cdn.bikedekho.com/processedimages/ducati/2025-panigale-v4/source/2025-panigale-v468da47bb496a2.jpg" alt="Ducati Panigale V4">
+                        <p>Ducati Panigale V4</p>
+                    </td>
+                </tr>
+            </table>
+        </section></div>
+        <div class="grid-item"> <section>
+            <h1>Shoes</h1>
+            <table>
+                <tr>
+                    <th>
+                        <h1>Nike SB x Air Jordan 4 Retro "Pine Green"</h1>
+</h1>
+                        <img src="https://guerdonkicks.com/cdn/shop/files/jordan-air-jordan-4-retro-sb-pine-green_19672569_44943998_2048.webp?v=1692821545&width=2048" alt="Nike SB x Air Jordan 4 Retro " height="500" >
+                        <p>Nike SB x Air Jordan 4 “Pine Green”: suede upper, gum sole, Zoom Air cushioning, skate-ready comfort.</p>
+                    </th>
+                    <th>
+                        <h1>jordan Jumpman MVP Men's Shoes</h1>
+                        <img src="https://images-cdn.ubuy.co.in/66bb1fcd454a4a2fcc7d6e02-nike-jumpman-mvp-men-39-s-shoes.jpg" alt="Smash Leather Sneakers" height="500">
+                        <p>Jordan Jumpman MVP Men’s Shoes blend Air Jordan 6, 7, and 8 designs with Air cushioning, premium leather, and durable rubber outsole.</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>Adidas Samba Classic White</h1>
+                        <img src="https://www.kicksmachine.com/cdn/shop/files/adidas-Samba-Classic-White-Product_49f6ba6d-ba36-4a1d-956e-c7b1c4a716e4.webp?v=1745066004" alt="Adidas Samba Classic White" height="500">
+                        <p><b>Adidas Samba Classic White features full-grain leather upper, suede toe cap, EVA midsole, gum rubber outsole, and iconic three stripes</b></p>
+                    </td>
+                    <td>
+                        <h1>Puma speedcat OG sneakers</h1>
+                        <img src="https://www.thestreets.de/_next/image?url=https%3A%2F%2Fbackend.thestreets.eu%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd184dcba75a873441633b9a309928c75%2F3%2F9%2F398846-092_w6nmtseipkcdycck.jpg&w=1920&q=75" alt="Puma speedcat OG sneakers" height="500">
+                        <p><b>Puma Speedcat OG sneakers feature soft suede upper, low-profile rubber sole, lace closure, driver-inspired design, and signature embroidered Puma logo.</b></p>
+                    </td>
+                </tr>
+            </table>
+        </section></div>
+    </div>
+
+</body>
+</html>

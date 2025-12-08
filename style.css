@@ -1,0 +1,94 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 20 px;
+            background-color: white;
+            color: #333;
+        }
+
+        img[src*="banner"] {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        section:first-of-type {
+            text-align: center;
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        section:first-of-type a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        section:first-of-type a:hover {
+            color: #0056b3;
+        }     
+
+        .sections-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            flex: 1 1 45%;
+            min-width: 300px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            text-align: center;
+            margin: 0 0 20px 0;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: center;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+
+        th h1, td h1 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+            color: #007bff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 0.9em;
+            line-height: 1.4;
+            color: #666;
+        }
+
+        b {
+            font-weight: bold;
+        }
